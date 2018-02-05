@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'devise', '~> 4.1'
   s.add_dependency 'deface', '~> 1.0'
   s.add_dependency 'oj', '~> 3.0'
-  s.add_dependency 'faraday', '~> 0.8'
-  s.add_dependency 'typhoeus', '~> 0.6'
-  s.add_dependency 'faraday_middleware', '~> 0.10'
+  s.add_dependency 'faraday', '> 0.8'
+  s.add_dependency 'typhoeus', '> 0.6'
+  s.add_dependency 'faraday_middleware', '> 0.10'
   s.add_dependency 'activemerchant', '~> 1.48', '!= 1.58.0', '!= 1.59.0'
   s.add_dependency 'celluloid', '~> 0.16'
 
